@@ -27,7 +27,7 @@ public class Test1 {
 		driver.get("https://www.amazon.in/");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Best Sellers']")).click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		driver.close();
 	}
 }
