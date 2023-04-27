@@ -27,7 +27,6 @@ public class Test1 {
 		driver.get("https://www.amazon.in/");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Best Sellers']")).click();
-		driver.findElement(By.xpath("//div[@id='B07PK41FL4']/ancestor::div[@id='anonCarousel1']//a[contains(@href,'GLUN')]")).click();
 		Thread.sleep(3000);
 		driver.close();
 	}
